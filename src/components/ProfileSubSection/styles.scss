@@ -1,0 +1,34 @@
+.profileSubSection {
+  padding: 1rem;
+  display: flex;
+  border-bottom: 1px solid rgba(181, 194, 205, 0.2);
+  justify-content: space-between;
+
+
+  .pssContentSection {
+    span {
+      display: block;
+      text-align: left;
+      &:first-child {
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: 600px;
+        color: #3b9b6e;
+      }
+      &:nth-child(2) {
+        text-transform: capitalize;
+        font-weight: bold;
+        margin: 1.5rem 0px;
+      }
+      &:last-child {
+        color: rgb(181, 194, 205);
+        font-size: 13px;
+      }
+    }
+  }
+  .pSubSectionChild{
+      color:rgb(181, 194, 205) ;
+      opacity: 0.2;
+      font-size: 60px;
+  }
+}

@@ -1,0 +1,29 @@
+main {
+  width: 75vw;
+  height: 100%;
+  background-color: #ebeff1;
+  // overflow-y: auto;
+  padding: 1.8rem 2rem;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  box-sizing: border-box;
+
+  .mainHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .sorts {
+      display: flex;
+    }
+  }
+
+  .mainMainSection {
+    margin-top: 2rem;
+    height: 75vh;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    column-gap: 2rem;
+  }
+}

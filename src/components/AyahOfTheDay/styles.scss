@@ -1,0 +1,26 @@
+.ayahOfTheDay{
+    background-color: #01ac67;
+    color:white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: left;
+
+    span{
+        &:first-child{
+        font-size: 11px;
+        margin-bottom: 0.5rem;
+        opacity: 0.4;
+        }
+        &:last-child{
+            font-size: 10px;
+
+        }
+    }
+    p{
+        font-size: 16px;
+        padding: 1.5rem 0px;
+        border-bottom: thin solid rgba(255, 255, 255,0.4);
+
+
+    }
+}

@@ -1,0 +1,41 @@
+.sort{
+    width: 150px;
+    // height: 60px;
+    cursor: pointer;
+    opacity: 0.5;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items:flex-end;
+    border-radius: 10px;
+    margin: 0px 1rem;
+    justify-content: space-between;
+    // border: 1px solid purple;
+
+    .sortContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        span{
+            display: block;
+            text-align: left;
+            &:first-child{
+                font-size: 11px;
+                color:#b5c2cd
+
+            }
+            &:last-child{
+                margin-top: 0.6rem;
+                font-size: 13px;
+                font-weight: bold;
+                color: #3d454f;
+                
+            }
+        }
+    }
+}
+
+.activeSort{
+    background-color: white;
+    opacity: 1 !important;
+}
